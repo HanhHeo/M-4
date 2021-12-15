@@ -1,0 +1,20 @@
+
+<div class="container">
+  <div class="row">
+Number One <input type="number" #numberOne />
+<br/>
+<select #operand>
+  <option value="chọn">--Chọn--</option>
+  <option value="1">Cộng</option>
+  <option value="2">Trừ</option>
+  <option value="3">Nhân</option>
+  <option value="4">Chia</option>
+</select>
+<br />
+Number Two <input type="number" #numberTwo /> <br />
+<br />
+<button type="submit" on-click="bang(numberOne.value,numberTwo.value,operand.value)">Kết quả</button>
+
+<p>Kết quả : {{ result }}</p>
+</div>
+</div>
