@@ -1,0 +1,20 @@
+<h1 class= "text-center">Countdown Timer</h1>
+<br>
+<div class="group-action" style= "text-align: center;">
+  <button class= "btn btn-success" on-click="start()">Start</button>
+  <button class= "btn btn-danger" on-click="stop()">Stop</button>
+  <button class= "btn btn-primary" on-click="reset()">Reset</button>
+</div>
+<br>
+
+<div class="timer text-center text-danger ">
+  <span class="timer-text">{{ remainingTime }}</span>
+</div>
+<!-- <h2>Thời gian</h2>
+
+<div class="progress-bar-container" [style.backgroundColor]="backgroundColor">
+  <div class="progress" [ngStyle]="{
+  backgroundColor: progressColor,
+  width: progress + '%'
+  }"></div>
+</div> -->
